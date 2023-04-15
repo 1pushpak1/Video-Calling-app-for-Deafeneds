@@ -94,6 +94,10 @@ output_data = model(inputs=tf.constant(input_data))['output_0']
 # Print the output
 print(output_data)
 ```
+##Flow Chart for Gesture Classification is as following
+
+![flowchart](Images/gesture.png)
+
 
 
 ## Tech Stack
