@@ -19,11 +19,11 @@ Sign language is a visual language and consists of 3 major components
 
 ![components](Images/components.jpg)
 
-In this project I basically focus on producing a model which can recognize Fingerspelling based hand gestures in order to form a complete word by combining each gesture. 
+In this project I basically focus on producing a model which can recognize Finger, hand gestures, facial gestures in order to form a word by combining each gesture. 
 
-The gestures I  trained are as given in the image below.
+The gestures I trained are as given in the image below.
 
-![Signs](images/signs.jpg)
+![Signs](images/THANKYOU.png)
 ## Tech Stack
 - Python
 - Open cv
