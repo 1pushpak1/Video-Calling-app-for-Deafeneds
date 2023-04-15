@@ -122,7 +122,7 @@ print(output_data)
 3. Harsh Gupta
 4. Aditya Gupta
 
-##License
+## License
 
 1pushpak1/Video-Calling-app-for-Deafeneds is licensed under the
 MIT License
