@@ -17,7 +17,7 @@ Gestures are the nonverbally exchanged messages and these gestures are understoo
 
 Sign language is a visual language and consists of 3 major components 
 
-![components](images/components.jpg)
+![components](Images/components.jpg)
 
 In this project I basically focus on producing a model which can recognize Fingerspelling based hand gestures in order to form a complete word by combining each gesture. 
 
