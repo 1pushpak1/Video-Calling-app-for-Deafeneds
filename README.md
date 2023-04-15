@@ -23,7 +23,7 @@ In this project I basically focus on producing a model which can recognize Finge
 
 The gestures I trained are as given in the image below.
 
-![Signs](images/THANKYOU.png)
+![Signs](Images/THANKYOU.png)
 ## Tech Stack
 - Python
 - Open cv
