@@ -24,6 +24,14 @@ In this project I basically focus on producing a model which can recognize Finge
 The gestures I  trained are as given in the image below.
 
 ![Signs](images/signs.jpg)
+## Progress
+Project Webpage
+Model Code in ipynb
+Basic ML Model is ready, Named saved_model.pb
+APP UI is ready
+Hosted on Google Cloud using AMD Instance
+Model is on upgarde
+
 ## Team 
 1. Pushpak Kumawat
 2. Yatharth Gautham
