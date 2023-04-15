@@ -1,13 +1,13 @@
 # Video-Calling-app-for-Deafeneds
 ## Abstract
 
-Sign language is one of the oldest and most natural form of language for communication, but since most people do not know sign language and interpreters are very difficult to come by we have come up with a real time method using neural networks for fingerspelling based american sign language on video calling app.
+Sign language is one of the oldest and most natural form of language for communication, but since most people do not know sign language and interpreters are very difficult to come by we have come up with a real time method using neural networks for fingerspelling based indian sign language on video calling app.
  
-In this method, the hand is first passed through a filter and after the filter is applied the hand is passed through a classifier which predicts the class of the hand gestures. This method provides 98.00 % accuracy for the 26 letters of the alphabet and will also try to develop the capt
+In this method, the hand is first passed through a classifier which predicts the class of the hand gestures. This method provides 98.00 % accuracy for many phrases like Thankyou, I Love You, No etc
 
 ## Project Description
 
-American sign language is a predominant sign language Since the only disability D&M people have is communication related and they cannot use spoken languages hence the only way for them to communicate is through sign language. 
+Indian sign language is a predominant sign language Since the only disability D&M people have is communication related and they cannot use spoken languages hence the only way for them to communicate is through sign language. 
 
 Communication is the process of exchange of thoughts and messages in various ways such as speech, signals, behavior and visuals. 
 
@@ -24,3 +24,8 @@ In this project I basically focus on producing a model which can recognize Finge
 The gestures I  trained are as given in the image below.
 
 ![Signs](images/signs.jpg)
+## Team 
+1. Pushpak Kumawat
+2. Yatharth Gautham
+3. Harsh Gupta
+4. Aditya Gupta
