@@ -25,12 +25,12 @@ The gestures I  trained are as given in the image below.
 
 ![Signs](images/signs.jpg)
 ## Progress
-Project Webpage.
-Model Code in ipynb.
-Basic ML Model is ready, Named saved_model.pb.
-APP UI is ready.
-Hosted on Google Cloud using AMD Instance.
-Model is on upgarde.
+- Project Webpage <br>
+- Model Code in ipynb <br>
+- Basic ML Model is ready, Named saved_model.pb.
+- APP UI is ready.
+- Hosted on Google Cloud using AMD Instance.
+- Model is on upgarde.
 
 ## Team 
 1. Pushpak Kumawat
