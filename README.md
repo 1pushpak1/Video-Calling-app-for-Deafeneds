@@ -26,7 +26,7 @@ The gestures I trained are as given in the image below.
 ![Signs](Images/THANKYOU.png)
 
 ## Code For Image Processing
-'''python
+``` python
 import cv2 
 import numpy as np
 category_index = label_map_util.create_category_index_from_labelmap(ANNOTATION_PATH+'/label_map.pbtxt')
@@ -65,12 +65,12 @@ viz_utils.visualize_boxes_and_labels_on_image_array(
                 agnostic_mode=False)
 
 cv2.imshow('object detection',  cv2.resize(image_np_with_detections, (800, 600)))
-'''
+
     
 if cv2.waitKey(1) & 0xFF == ord('q'):
     cap.release()
     break
-
+```
 ## Tech Stack
 - Python
 - Open cv
