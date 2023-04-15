@@ -24,7 +24,10 @@ In this project I basically focus on producing a model which can recognize Finge
 The gestures I trained are as given in the image below.
 
 ![Signs](Images/THANKYOU.png)
-
+### Train the Model
+``` python
+print("""python {}/research/object_detection/model_main_tf2.py --model_dir={}/{} --pipeline_config_path={}/{}/pipeline.config --num_train_steps=5000""".format(APIMODEL_PATH, MODEL_PATH,CUSTOM_MODEL_NAME,MODEL_PATH,CUSTOM_MODEL_NAME))
+```
 ## Code For Image Processing
 ``` python
 import cv2 
@@ -71,6 +74,28 @@ if cv2.waitKey(1) & 0xFF == ord('q'):
     cap.release()
     break
 ```
+## Import Model 
+```python
+import tensorflow as tf
+
+# Load the saved model
+model = tf.saved_model.load('path/to/model.pb')
+
+# Get the input and output tensors
+inputs = model.signatures['serving_default'].inputs
+outputs = model.signatures['serving_default'].outputs
+
+# Prepare the input data (this example assumes a single input)
+input_data = [[1.0, 2.0, 3.0]]
+
+# Run the model
+output_data = model(inputs=tf.constant(input_data))['output_0']
+
+# Print the output
+print(output_data)
+```
+
+
 ## Tech Stack
 - Python
 - Open cv
