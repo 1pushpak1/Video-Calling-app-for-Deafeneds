@@ -24,6 +24,14 @@ In this project I basically focus on producing a model which can recognize Finge
 The gestures I  trained are as given in the image below.
 
 ![Signs](images/signs.jpg)
+## Tech Stack
+- Python
+- Open cv
+- Tensor Flow
+- TF zoo model
+- Object Detection
+- Flutter
+
 ## Progress
 - Project Webpage <br>
 - Model Code in ipynb <br>
