@@ -121,3 +121,9 @@ print(output_data)
 2. Yatharth Gautham
 3. Harsh Gupta
 4. Aditya Gupta
+
+##License
+
+1pushpak1/Video-Calling-app-for-Deafeneds is licensed under the
+MIT License
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
