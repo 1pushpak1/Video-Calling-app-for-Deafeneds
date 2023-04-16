@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+.text-te {
+	color: #c5203c;
+}
+.nav {
+	background-color: #001220;
+}
+
+.icon{
+	width: 35px;
+	height: auto;
+	
+}
+.github{
+	fill: rgb(147, 157, 165);
+}
+.icon:hover{
+	fill: white;
+}
+.bgrnd {
+	aspect-ratio: 960/450;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.flip {
+	transform: scaleY(-1);
+}
+.layer1 {
+	background-image: url(./images/layered-waves-haikeidown.svg);
+}
+.layer2 {
+	background-image: url(./images/stacked-peaks-haikei.svg);
+}
+.layer3 {
+	background-image: url(./images/stacked-steps-haikei.svg);
+}
+.layer4{
+	background-image: url(./images/layered-waves-haikeiup.svg);
+}
+.layer5{
+	background-image: url(./images/stacked-peaks-haikeilast.svg);
+}
